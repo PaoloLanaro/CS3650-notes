@@ -34,4 +34,24 @@
 		- `  uint off; };`
 
 ## 39.6 Shared File Table Entries: `fork()` And `dup()`
-- 
+- There's few cases where an entry in the open file table is *shared*.
+	- When a parent process creates a child process with `fork()` the entry is shared between the parent and child process so changes made in the child will be reflected on the parent.
+	- Another case is the `dup()` syscall (and `dup2()` and `dup3()`). The `dup()` call is useful when writing a UNIX shell and performing operations like output redirection. 
+- When a file table entry is shared, its reference count is incremented; only when both processes close the file will the entry be removed.
+
+## 39.7 Writing Immediately With `fsync()`
+- When the `fsync(int fd)` syscall is called, the file system responds by forcing all dirty (not yet written) data to disk, for the file referred to by the specified file descriptor.
+- This is done because the file system usually buffers write calls for performance issues, with an eventual guarantee that bytes will be written. Sometimes this guarantee isn't good enough so `fsync()` can be used to "immediately push" the bytes.
+
+## 39.8 Renaming Files
+- the `mv` syscall takes two arguments: the original name of the file `old` and the `new` name and changes the name of the `old` file to `new`.
+- A good way of creating files is by creating a tmp file (`open(file.txt.tmp, ..., ...)`) writing the new contents of that file (`write(fd, buffer, size`) force it to the disk (`fsync(fd)`) close the file (`close(fd)`), and finally rename the temp to the requested file's name (`rename("file.txt.tmp, "file.txt")`).
+
+## 39.9 Getting Information About Files
+- To see the metadata of a certain file we can use the `stat()` or `fstat()` syscalls. The syscalls take a pathname or file descriptor to a file and fill in a `stat` struct.
+- Information includes, but is not limited to, the size (in bytes), its low-level name (inode #), some ownership information, and some information about when the file was accessed or modified.
+- Each file system usually keeps this type of information in a structure called an `inode`
+
+## 39.10 Removing Files
+
+unfinished
