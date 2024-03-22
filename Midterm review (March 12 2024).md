@@ -58,7 +58,79 @@ C ptr vs index
 `$sp: ptr or index?`   == stack pointer
 `16: ptr or index?`    == index
 
+## I lost some time setting up Github repo here so no notes for a bit
+
+Current directory points to a struct inode
+	
+inodes represent files, so the current directory is an inode to represent the... directory
+
+C ptrs: syntax
+`int *x;`  -> decleration
+`int y = *x;` -> execution (we dereference x and then assign the int value of `x` to `y`)
+`&`: "address of" so `int *z = &y;` is assigning the address of y to the ptr z
+`*z = 42;` -> dereference z and set the value to 42
+`&y + 16;` will be similar to `4($sp)` -> It'll go to the address of `y` "plus 16"
+
+Symbol table
+
+| symbol name (string)                | address                        |
+| ----------------------------------- | ------------------------------ |
+|                                     |                                |
+| "y" // global variable              | `&y`                           |
+|                                     |                                |
+| "foo" // function name w/ signature | signature: includes local vars |
+Can only have global variables
+### Recursive fnc's
+could have local variables, but it won't have a symbol in the table because it's impossible to compute what local variables will bee used within the run time of the program.
+
+GDB
+gcc -g3 -O0
+-g3 tells the compile that after it's compiled everything, you should keep the symbol table so that we can use it to debug
+IDE - breakpoints
+
+In assembly what do we use for variables?
+	Registers in the text segment and more specifically LABELS
+
+### Assembly:
+
+Give 3 different examples of how labels are used
+	1. Global Variables (there are no labels for local variables in assembly. local variable stored in temporary registers or call frames on the stack.)
+	2. Loops or target of a branch
+	3. Function names (e.x. jal foo)
+
+1. `lw` / `sw`
+2. `branch`
+3. `jal` / `jr` `$ra`
+
+Call Frames are used for "overflow" when not enough registers 
+
+==Assembly directives:==
+.word (global integer)
+.text 
+.data
+.space (global array and specify how much space)
+
+### Cache:
+1. Fully associative
+2. Direct Mapped
+3. (not on the test): set associative
+
+Virtual Memory:
+similar to direct-mapped cache, but it also uses a page table + page in RAM
+CPU -> address -> cache -> page table
+vv Page table vv
+
+| virtual address | physical address (ptr to data block) | data block  |
+| --------------- | ------------------------------------ | ----------- |
+|                 |                                      | page in RAM |
+
 
 ### inode:
 we have a disk (ssd)
 
+
+# To-Do
+1. Review Assembly
+2. Review Direct mapped vs Fully assoc
+3. Review process table
+4. Review inode

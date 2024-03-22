@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "7d684830a1030499",
+    "type": "split",
+    "children": [
+      {
+        "id": "a529537e285e73c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63458d8ad04daa04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture x (March 22 2024).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ba42012a1f56cf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9ab8a3c8db0f71e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b1cb380755a8bcb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c466a6434dc16e8c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a686ac482e87f00c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8ca52fe769415fce",
+    "type": "split",
+    "children": [
+      {
+        "id": "199aea922e06841f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "077de1fef0de8672",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lecture x (March 22 2024).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f3dc542942cabcef",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lecture x (March 22 2024).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e766f1630b418aac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "64d78df06a786ca6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lecture x (March 22 2024).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "63458d8ad04daa04",
+  "lastOpenFiles": [
+    "images/Pasted image 20240322160049.png",
+    "images/Pasted image 20240322160107.png",
+    "Lecture x (March 22 2024).md",
+    "Midterm review (March 12 2024).md",
+    "Lecture x (March 19 2024).md",
+    "ostep.org.md",
+    "Lecture 8 (February 2 2024).md",
+    "ostep notes/Chapter 39.md",
+    "ostep notes/Chapter 5.md",
+    "ostep notes/Chapter 4.md",
+    "ostep notes/Chapter 2.md",
+    "Lecture x (February 27 2024).md",
+    "Lecture x (March 1 2024).md",
+    "ostep notes/Chapter 15.md",
+    "README.md",
+    "process.md",
+    "ostep notes",
+    "images/hw 2 sh.c xv6 pipe.png",
+    "images/YIPEE.png",
+    "images/ultra pro programmers.png",
+    "images/Pasted image 20240123153407.png",
+    "images/swapfile.png",
+    "images/Sit on CPu.png",
+    "images/memory hierarchy.png",
+    "images/Green Card.png",
+    "images",
+    "Lecture x (February 23 2024).md",
+    "Lecture x (February 20 2024).md",
+    "Lecture 9 (February 6 2024).md",
+    "Lecture 7 (January 30 2024).md",
+    "Lecture 6 (January 24 2024).md",
+    "Lecture 5 (January 23 2024).md",
+    "Lecture 4 (January 19 2024).md",
+    "Lecture 3 (January 16 2024).md",
+    "Lecture 2 (January 12 2024).md",
+    "Lecture 10 (February 9 2024).md",
+    "Homework 1.md",
+    "CS3650 (Computer Systems)/images",
+    "CS3650 (Computer Systems)",
+    "Lecture 1x February 23, 2024",
+    "Untitled.canvas"
+  ]
+}
