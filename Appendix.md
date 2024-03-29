@@ -15,3 +15,5 @@ Following are hyperlinks to the notes in (hopefully) chronological order
 [[Lecture x (February 27 2024)]]
 [[Lecture x (March 1 2024)]]
 [[Midterm review (March 12 2024)]]
+
+[[Lecture x (March 29 2024)]] `->` producer consumer will be on final!
