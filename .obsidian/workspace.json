@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "363a7279c01fe487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture x (March 26 2024).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture x (March 22 2024).md",
+                "file": "Lecture x (March 26 2024).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture x (March 22 2024).md",
+                "file": "Lecture x (March 26 2024).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture x (March 22 2024).md"
+                "file": "Lecture x (March 26 2024).md"
               }
             }
           }
@@ -146,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63458d8ad04daa04",
+  "active": "363a7279c01fe487",
   "lastOpenFiles": [
+    "Lecture x (March 22 2024).md",
+    "Lecture x (March 26 2024).md",
     "images/Pasted image 20240322160049.png",
     "images/Pasted image 20240322160107.png",
-    "Lecture x (March 22 2024).md",
     "Midterm review (March 12 2024).md",
     "Lecture x (March 19 2024).md",
     "ostep.org.md",
