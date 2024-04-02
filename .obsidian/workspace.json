@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "42e24e118e0ec6fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture x (April 2 2024).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture x (March 29 2024).md",
+                "file": "Lecture x (April 2 2024).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture x (March 29 2024).md",
+                "file": "Lecture x (April 2 2024).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture x (March 29 2024).md"
+                "file": "Lecture x (April 2 2024).md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "363a7279c01fe487",
+  "active": "42e24e118e0ec6fe",
   "lastOpenFiles": [
-    "Appendix.md",
+    "Lecture x (April 2 2024).md",
     "Lecture x (March 29 2024).md",
+    "Appendix.md",
     "ostep notes/Mutex & Semaphores.md",
     "Untitled.canvas",
     "Lecture x (March 26 2024).md",
@@ -187,7 +201,6 @@
     "Lecture 6 (January 24 2024).md",
     "Lecture 5 (January 23 2024).md",
     "Lecture 4 (January 19 2024).md",
-    "Lecture 3 (January 16 2024).md",
     "CS3650 (Computer Systems)/images",
     "CS3650 (Computer Systems)",
     "Lecture 1x February 23, 2024"
