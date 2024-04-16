@@ -38,14 +38,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture x (April 5 2024).md",
+                "file": "Lecture x (April 9 2024).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3007b074097600b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture x (April 16 2024).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture x (April 5 2024).md",
+                "file": "Lecture x (April 16 2024).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture x (April 5 2024).md",
+                "file": "Lecture x (April 16 2024).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture x (April 5 2024).md"
+                "file": "Lecture x (April 16 2024).md"
               }
             }
           }
@@ -172,10 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ea53ded93204c9e",
+  "active": "3007b074097600b8",
   "lastOpenFiles": [
-    "Lecture x (April 2 2024).md",
+    "Pasted image 20240416164037.png",
+    "Lecture x (April 16 2024).md",
+    "Lecture x (April 9 2024).md",
     "Lecture x (April 5 2024).md",
+    "Lecture x (April 2 2024).md",
     "Lecture x (March 29 2024).md",
     "Appendix.md",
     "ostep notes/Mutex & Semaphores.md",
@@ -210,9 +225,6 @@
     "Lecture x (February 23 2024).md",
     "Lecture x (February 20 2024).md",
     "Lecture 9 (February 6 2024).md",
-    "Lecture 7 (January 30 2024).md",
-    "Lecture 6 (January 24 2024).md",
-    "Lecture 5 (January 23 2024).md",
     "CS3650 (Computer Systems)/images",
     "CS3650 (Computer Systems)",
     "Lecture 1x February 23, 2024"
