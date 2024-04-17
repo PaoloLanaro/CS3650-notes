@@ -1,0 +1,2 @@
+- There are cases in which a parent may want to check if a certain condition is met before continuing. This calls for a condition variable - an explicit queue that threads can put themselves on when some state of execution is not as desired; some other  thread, when it changes said state, can then wake one of those waiting threads and thus allow them to continue.
+- ==add to this including examples (reader-writer)==

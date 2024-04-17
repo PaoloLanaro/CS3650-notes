@@ -8,56 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "363a7279c01fe487",
+            "id": "c9aacbad5b135464",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture x (March 29 2024).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42e24e118e0ec6fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture x (April 2 2024).md",
+                "file": "ostep notes/Concurrency Table of Contents.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1ea53ded93204c9e",
+            "id": "0019bbc148a1aa47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture x (April 9 2024).md",
+                "file": "ostep notes/Concurrency Bugs.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3007b074097600b8",
+            "id": "4aa024c7c839eba2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture x (April 16 2024).md",
+                "file": "ostep notes/Condition Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture x (April 16 2024).md",
+                "file": "ostep notes/Condition Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture x (April 16 2024).md",
+                "file": "ostep notes/Condition Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture x (April 16 2024).md"
+                "file": "ostep notes/Condition Variables.md"
               }
             }
           }
@@ -184,16 +171,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3007b074097600b8",
+  "active": "4aa024c7c839eba2",
   "lastOpenFiles": [
-    "Pasted image 20240416164037.png",
-    "Lecture x (April 16 2024).md",
-    "Lecture x (April 9 2024).md",
-    "Lecture x (April 5 2024).md",
-    "Lecture x (April 2 2024).md",
+    "ostep notes/Concurrency Bugs.md",
+    "Pasted image 20240416215216.png",
+    "Pasted image 20240416215211.png",
+    "ostep notes/Condition Variables.md",
+    "ostep notes/Concurrency Table of Contents.md",
     "Lecture x (March 29 2024).md",
-    "Appendix.md",
+    "Lecture x (April 2 2024).md",
+    "Lecture x (April 9 2024).md",
+    "ostep notes/Chapter 2.md",
     "ostep notes/Mutex & Semaphores.md",
+    "ostep notes/Mutexes.md",
+    "Lecture x (April 16 2024).md",
+    "Pasted image 20240416164037.png",
+    "Lecture x (April 5 2024).md",
+    "Appendix.md",
     "Untitled.canvas",
     "Lecture x (March 26 2024).md",
     "Lecture x (March 22 2024).md",
@@ -206,25 +200,17 @@
     "ostep notes/Chapter 39.md",
     "ostep notes/Chapter 5.md",
     "ostep notes/Chapter 4.md",
-    "ostep notes/Chapter 2.md",
     "Lecture x (February 27 2024).md",
     "Lecture x (March 1 2024).md",
     "ostep notes/Chapter 15.md",
     "README.md",
-    "process.md",
     "ostep notes",
     "images/hw 2 sh.c xv6 pipe.png",
     "images/YIPEE.png",
     "images/ultra pro programmers.png",
     "images/Pasted image 20240123153407.png",
     "images/swapfile.png",
-    "images/Sit on CPu.png",
-    "images/memory hierarchy.png",
-    "images/Green Card.png",
     "images",
-    "Lecture x (February 23 2024).md",
-    "Lecture x (February 20 2024).md",
-    "Lecture 9 (February 6 2024).md",
     "CS3650 (Computer Systems)/images",
     "CS3650 (Computer Systems)",
     "Lecture 1x February 23, 2024"
