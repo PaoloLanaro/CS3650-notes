@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0ea31d0d4e24a6f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSTEP Generic Final Review.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ostep notes/Condition Variables.md",
+                "file": "OSTEP Generic Final Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ostep notes/Condition Variables.md",
+                "file": "OSTEP Generic Final Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ostep notes/Condition Variables.md"
+                "file": "OSTEP Generic Final Review.md"
               }
             }
           }
@@ -171,12 +183,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4aa024c7c839eba2",
+  "active": "0ea31d0d4e24a6f7",
   "lastOpenFiles": [
+    "ostep notes/Condition Variables.md",
+    "OSTEP Generic Final Review.md",
     "ostep notes/Concurrency Bugs.md",
     "Pasted image 20240416215216.png",
     "Pasted image 20240416215211.png",
-    "ostep notes/Condition Variables.md",
     "ostep notes/Concurrency Table of Contents.md",
     "Lecture x (March 29 2024).md",
     "Lecture x (April 2 2024).md",
